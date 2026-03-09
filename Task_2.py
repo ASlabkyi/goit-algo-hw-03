@@ -6,5 +6,3 @@ def get_numbers_ticket(min, max, quantity):
     else:
         result = random.sample(range(min, max+1), quantity)
         return sorted(result)
-
-print(get_numbers_ticket(1, 10, 10))
